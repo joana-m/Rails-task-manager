@@ -1,0 +1,4 @@
+<h1> <%= "Edit your task #{@task.title}" %></h1>
+
+<%= render "form", task: @task %>
+<%= link_to "Task list", task_index_path  %>
